@@ -6,7 +6,7 @@ export function Header() {
     const currentDate = format(new Date(), 'EEEEEE, d MMMM', {locale: ptBr});
 
     return (
-        <header className={styles.headerContainer}>
+         <header className={styles.headerContainer}>
             <img src="/logo.svg" alt="Logo Podcastr" />
 
             <p>O melhor para você ouvir, sempre</p>
@@ -15,4 +15,4 @@ export function Header() {
             <span>{currentDate}</span>
         </header>
     );
-}
+} 
